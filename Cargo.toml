@@ -6,5 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.8.5"
 serde = { version = "1.0.193", features = ["derive"] }
-triton_grow = "1.4.8"
+shuffle = "0.1.7"
+unda = "0.2.0"
